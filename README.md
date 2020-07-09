@@ -20,6 +20,24 @@ interface Vehicle{
   System.out.println("I am driving Bus");
    }
    
+This is for QA part 
+
+
+class Mobile{
+
+ public void getInfo(){
+ System.out.println("Mobile information is provided");
+ 
+ }
+ 
+ class MobileApp{
+ 
+ public static void main(String[] arg){
+ 
+   Mobile  m1 = new Mobile();
+   m1.getInfo();
+   
+   }
    }
    
    class App{
@@ -29,5 +47,6 @@ interface Vehicle{
       }
       
       
+
 
 
