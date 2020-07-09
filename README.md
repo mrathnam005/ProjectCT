@@ -8,6 +8,17 @@ public static void main(String[] arg){
   
    }
    
+
+interface Vehicle{
+
+ public void run();
+ }
+ 
+ class Bus implements Vehicle{
+ 
+ public void run(){
+  System.out.println("I am driving Bus");
+   }
    
 This is for QA part 
 
@@ -27,5 +38,15 @@ class Mobile{
    m1.getInfo();
    
    }
+   }
    
-   
+   class App{
+    public static void main(String[] arg){
+      Vehicle v1 = new Bus();
+      v1.run();
+      }
+      
+      
+
+
+
