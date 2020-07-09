@@ -46,6 +46,22 @@ class Mobile{
       v1.run();
       }
       
+      class Threading extends Thread{
+      
+      public void run(){
+      System.out.println("Thread running");
+      }
+      
+      }
+      
+      class MainThread{
+      
+      public static void main(String[] arg){
+      Threading t1 = new Threading();
+      Thread  t = new Thread(t1);
+      t.start();
+      }
+}
       
 
 
